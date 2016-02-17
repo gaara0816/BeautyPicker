@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:id="@+id/toolbar"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="?android:attr/actionBarSize"
+                                   android:background="?attr/colorPrimary"
+                                   android:minHeight="?attr/actionBarSize"
+                                   android:orientation="vertical"
+                                   android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                                   android:theme="@style/AppTheme.ToolBar">
+
+    <Button
+        android:id="@+id/commit"
+        android:background="@drawable/action_btn"
+        android:minHeight="1dp"
+        android:minWidth="1dp"
+        android:text="完成"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/default_text_color"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"/>
+
+</android.support.v7.widget.Toolbar>

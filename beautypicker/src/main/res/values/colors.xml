@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_color">#ffe35a1a</color>
+
+    <color name="theme_color_highlight">#ffd24a1a</color>
+</resources>
